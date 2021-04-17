@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/KitchenMemories/static/css/main.bb027abf.chunk.css",
-    "main.js": "/KitchenMemories/static/js/main.d024a6c6.chunk.js",
-    "main.js.map": "/KitchenMemories/static/js/main.d024a6c6.chunk.js.map",
+    "main.js": "/KitchenMemories/static/js/main.3c326a5e.chunk.js",
+    "main.js.map": "/KitchenMemories/static/js/main.3c326a5e.chunk.js.map",
     "runtime-main.js": "/KitchenMemories/static/js/runtime-main.768c6188.js",
     "runtime-main.js.map": "/KitchenMemories/static/js/runtime-main.768c6188.js.map",
     "static/css/2.95258f03.chunk.css": "/KitchenMemories/static/css/2.95258f03.chunk.css",
     "static/js/2.93413e1c.chunk.js": "/KitchenMemories/static/js/2.93413e1c.chunk.js",
     "static/js/2.93413e1c.chunk.js.map": "/KitchenMemories/static/js/2.93413e1c.chunk.js.map",
     "index.html": "/KitchenMemories/index.html",
-    "precache-manifest.51489c3e91c55ec390ada67b8968b86c.js": "/KitchenMemories/precache-manifest.51489c3e91c55ec390ada67b8968b86c.js",
+    "precache-manifest.48f86deca8e059a05c6a0a025ee56559.js": "/KitchenMemories/precache-manifest.48f86deca8e059a05c6a0a025ee56559.js",
     "service-worker.js": "/KitchenMemories/service-worker.js",
     "static/css/2.95258f03.chunk.css.map": "/KitchenMemories/static/css/2.95258f03.chunk.css.map",
     "static/css/main.bb027abf.chunk.css.map": "/KitchenMemories/static/css/main.bb027abf.chunk.css.map",
@@ -29,6 +29,6 @@
     "static/css/2.95258f03.chunk.css",
     "static/js/2.93413e1c.chunk.js",
     "static/css/main.bb027abf.chunk.css",
-    "static/js/main.d024a6c6.chunk.js"
+    "static/js/main.3c326a5e.chunk.js"
   ]
 }
