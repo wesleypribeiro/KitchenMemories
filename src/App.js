@@ -44,7 +44,7 @@ class App extends React.Component {
       <div className="App">
         <BrowserRouter>
           <Switch>
-            <Route exact path="https://wesleypribeiro.github.io/KitchenMemories/" component={ Login } />
+            <Route exact path="/KitchenMemories/" component={ Login } />
             <Route exact path="/comidas" component={ Comidas } />
             <Route exact path="/bebidas" component={ Bebidas } />
             <Route exact path="/explorar" component={ Expĺorar } />
