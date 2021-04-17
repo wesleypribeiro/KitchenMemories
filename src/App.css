@@ -1,0 +1,213 @@
+* {
+  box-sizing: border-box;
+}
+
+.alert {
+  background-color: rgba(57, 62, 65, 0.9);
+  border-radius: 10px;
+  color: whitesmoke;
+  float: right;
+  left: 50%;
+  position: fixed;
+  top: 10%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+
+.cardNameSearchBar {
+  background-color: rgba(53, 49, 49, 0.3);
+}
+
+.checkboxInProgress {
+  margin-left: 10px;
+}
+
+.checkboxInProgressChecked {
+  text-decoration: line-through solid black;
+}
+
+.default-button {
+  background-color: white;
+  color: black;
+  text-transform: uppercase;
+  font-weight: bold;
+  border: 2px solid black;
+  margin-bottom: 20px;
+}
+
+.default-button:disabled {
+  background-color: white;
+  color: black;
+  text-transform: uppercase;
+  font-weight: bold;
+  border: 2px solid black;
+  margin-bottom: 20px;
+}
+
+.default-button:hover {
+  background-color: white;
+  color: black;
+  border-color: black;
+}
+
+.filter-button {
+  border: none;
+  background-color: black;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.filter-button.orange {
+  margin: 5px 0;
+  color: black;
+}
+
+.default-button.orange:hover {
+  text-decoration: none;
+  background-color: #F7C838;
+}
+
+.green {
+  background-color: #3DC573;
+}
+
+.default-button.green:hover {
+  background-color: #3DC573;
+  color: black;
+  border-color: black;
+}
+
+.default-button.green:active {
+  background-color: #3DC573;
+  color: black;
+  border-color: black;
+}
+
+
+.orange {
+  background-color: #F7C838;
+}
+
+.filter-button.orange:hover {
+  background-color: #F7C838;
+}
+
+.white {
+  background-color: white;
+}
+
+.filter-button:hover {
+  background-color: black;
+  color: white;
+}
+
+.linkImage {
+  margin-top: 10px;
+  max-width: 80%;
+}
+
+.linkVideo {
+  border: 3px solid rgb(18, 53, 41);
+  margin-top: 10px;
+  width: 98%;
+}
+
+.btn-login {
+  margin-left: 140px;
+  margin-top: 10px;
+}
+
+.meals {
+  align-items: center;
+  background: #0fa36b;
+  color: #464646;
+  display: flex;
+  flex-direction: column;
+  font-family: sans-serif;
+  height: 100vh;
+  justify-content: center;
+  width: 100%;
+}
+
+.rocksGlass {
+  animation: shake 1s infinite ease;
+}
+
+.tags {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+
+.input-text {
+  align-self: center;
+  border-radius: 5px;
+  display: flex;
+  margin-left: 70px;
+  margin-top: 30px;
+}
+
+.login-btn {
+  align-self: center;
+  border-radius: 5px;
+  display: flex;
+  margin-left: 140px;
+  margin-top: 30px;
+}
+
+.notFound {
+  background-image: url('https://zlionbrasil.com.br/img/icons/404.png');
+  background-size: cover;
+  color: rgb(16, 135, 190);
+  font-size: 50px;
+  height: 100vh;
+  text-align: center;
+  width: 100vw;
+}
+
+.meals > .logo {
+  animation: shake 1.5s infinite ease;
+  color: aliceblue;
+  font-family: Montserrat , sans-serif;
+  font-size: 3em;
+  font-weight: 900;
+}
+
+.recipe-button {
+  border: none;
+  background-color: #DADADA;
+  margin: 0 10px 10px 0;
+  border-radius: 7px;
+}
+
+@keyframes shake {
+
+  0% {
+    transform: rotate(5deg);
+  }
+
+  50% {
+    transform: rotate(-5deg);
+  }
+
+  100% {
+    transform: rotate(5deg);
+  }
+}
+
+@keyframes clink {
+
+  0% {
+    transform: rotate(-10deg);
+  }
+
+  50% {
+    transform: rotate(20deg);
+  }
+
+  100% {
+    transform: rotate(-10deg);
+  }
+}
