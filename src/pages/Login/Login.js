@@ -1,17 +1,17 @@
-import React, { Component } from 'react';
-import { connect } from 'react-redux';
-import PropTypes from 'prop-types';
-import { Button } from 'react-bootstrap';
-import login from '../../store/actions/user.actions';
-import logo from '../../logo.png';
-import './style.css';
+import React, { Component } from "react";
+import { connect } from "react-redux";
+import PropTypes from "prop-types";
+import { Button } from "react-bootstrap";
+import login from "../../store/actions/user.actions";
+import logo from "../../logo.png";
+import "./style.css";
 
 class Login extends Component {
   constructor() {
     super();
     this.state = {
-      Email: '',
-      senha: '',
+      Email: "",
+      senha: "",
       buttonDisabled: true,
     };
     this.logado = this.logado.bind(this);
@@ -46,7 +46,12 @@ class Login extends Component {
     return (
       <div className="d-flex  flex-column p-2 bd-highlight color">
         <div className="d-flex justify-content-center flex-row-reverse bd-highlight">
-          <img src={ logo } className="logo" alt="logo kitchen memories" width="250px" />
+          <img
+            src={logo}
+            className="logo"
+            alt="logo kitchen memories"
+            width="250px"
+          />
         </div>
         <div className="d-flex mb-3 justify-content-center flex-row-reverse bd-highlight">
           <h1>Bem Vindo</h1>
@@ -57,10 +62,10 @@ class Login extends Component {
               className="ml-2 mr-3 input-group mb-3 border border-dark login-input"
               type="text"
               name="Email"
-              value={ Email }
+              value={Email}
               placeholder="e-mail"
               data-testid="email-input"
-              onChange={ (event) => this.change(event) }
+              onChange={(event) => this.change(event)}
             />
           </div>
           <div className="d-flex p-2 bd-highlight">
@@ -68,10 +73,10 @@ class Login extends Component {
               className="ml-2  mr-3 mb-5 border border-dark login-input"
               type="text"
               name="senha"
-              value={ senha }
+              value={senha}
               placeholder="senha"
               data-testid="password-input"
-              onChange={ (event) => this.change(event) }
+              onChange={(event) => this.change(event)}
             />
           </div>
 
@@ -79,18 +84,17 @@ class Login extends Component {
             className="btn btn-dark btn-login"
             type="button"
             data-testid="login-submit-btn"
-            disabled={ buttonDisabled }
-            onClick={ () => {
-              localStorage.setItem('mealsToken', 1);
-              localStorage.setItem('cocktailsToken', 1);
-              localStorage.setItem('user', JSON.stringify(objUser));
+            disabled={buttonDisabled}
+            onClick={() => {
+              localStorage.setItem("mealsToken", 1);
+              localStorage.setItem("cocktailsToken", 1);
+              localStorage.setItem("user", JSON.stringify(objUser));
               setEmail(objUser.email);
-              history.push('/comidas');
-            } }
+              history.push("/comidas");
+            }}
           >
             Entrar
           </Button>
-
         </div>
       </div>
     );
