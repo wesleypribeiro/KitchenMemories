@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d2f8022b50eede6d8804024da81fc0d9",
+    "revision": "5bac47b4b5304686fd4c44db8f643288",
     "url": "/KitchenMemories/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/KitchenMemories/static/css/2.95258f03.chunk.css"
   },
   {
-    "revision": "bf8419a3f4e61a9795b7",
-    "url": "/KitchenMemories/static/css/main.bb027abf.chunk.css"
+    "revision": "ed89d265fe131551b22a",
+    "url": "/KitchenMemories/static/css/main.265e1f99.chunk.css"
   },
   {
     "revision": "6beb8f730de72e3c3a02",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/KitchenMemories/static/js/2.93413e1c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "bf8419a3f4e61a9795b7",
-    "url": "/KitchenMemories/static/js/main.3c326a5e.chunk.js"
+    "revision": "ed89d265fe131551b22a",
+    "url": "/KitchenMemories/static/js/main.4f8f5692.chunk.js"
   },
   {
     "revision": "e5bfce2cd58ea4549f0b",
